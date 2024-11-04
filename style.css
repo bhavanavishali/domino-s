@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    background-color: whitesmoke;
+    top: 0;
+    padding: 20px;
+}
+
+header a{
+    text-decoration: none;
+    margin-right: 100px;
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f88a3;
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+header nav{
+    padding-top: 10px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.download-btn{
+    background-color: #f3223b;
+    color: white;
+    border-radius: 3px;
+    width: 144px;
+    height: 45px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+/* banner section */
+
+.banner-container{
+ 
+    background-color: #1a5ca3;
+    width: 100%;
+    height: 80vh;
+     display: flex;
+    align-items: center;
+}
+.banner-container .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.left-section{
+    width: 600px;
+    margin-left: 100px;
+}
+.left-section h1{
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+.left-section p{
+    color: #47a0ff;
+    width: 500;
+    font-size: 21px;
+}
+.left-section button{
+
+       width: 20em;
+        border: 0;
+        height: 3em;
+        border-radius: 2px;
+        background-color: #1fb31a;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-family: 'proximaBold';
+        font-size: 20px;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 15px;
+}
+.left-section img{
+    margin-top: 10px;
+}
+
+/* offer display section */
+.offer-container{
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+}
+
+
+/* section 2 */
+.section-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    height: 50vh;
+
+
+}
+.title{
+    color: #708aa5;
+    font-family: "proximaBold";
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20PX;
+}
+.card-container{
+    background-color: white;
+    border: 1px solid rgb(128, 124, 124);
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.card-container h1{
+    
+    text-transform: uppercase;
+    color: #2b4547;
+    font-size: 19px;
+    font-family: "proximaExtraBold";
+    margin: 5px;
+}
+.card-container p{
+    text-align: center;
+    font-size: 16px;
+    line-height:24px;
+    color: #2b4547;
+}
+.card-container .btn-title{
+    color: #de042e;
+   margin-top: 20px;
+   text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* section-3 */
+
+.app-container{
+    background-color: #f2f5fc;
+    width: 100%;
+    height: 70vh;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+}
+.app-container .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+.app-container .right-section h1{
+    font-family: "ProximaBold";
+    font-size: 2em;
+    color: #59688c;
+
+}
+.app-container .right-section p{
+    margin-top: 20px;
+    font-size: 27px;
+    line-height: 43px;
+    letter-spacing: 0.24px;
+    color: #8899c0;
+    max-width: 457px;
+}
+.app-container .right-section img{
+   margin-top: 20px;
+}
+
+
+/* Text area section */
+.text-section{
+    margin: 32px;
+}
+
+.text-area-container .text-section h1{
+    color: var(--heading-color);
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 700;
+}
+.text-area-container .text-section p{
+    color: #54565b;
+    margin-top: 10px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+/* footer{
+    background-color: #1a2735;
+} */
+.footer .container1{
+    background-color: #1a2735;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.footer h1{
+    color: #546273;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.footer p{
+    font-size: 18px;
+    color: white;
+    margin: 10px;
+    
+}
+.icon-list{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.footer .container2{
+    display: flex;
+    justify-content: center;
+    padding: 1.4em;
+    background: #1a2735;
+    color: #5c6f83;
+    border: 1px dotted white;
+    border-left: none;
+    border-right: none;
+    
+}
+.footer .container2 p{
+    color: #5c6f83;
+}
+
+
+
+
+
